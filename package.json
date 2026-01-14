@@ -3,8 +3,8 @@
   "packageManager": "yarn@4.11.0",
   "private": true,
   "workspaces": [
-    "/apps/*",
-    "/packages/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "start:web": "yarn workspace @monorepo/web-app start",
@@ -12,6 +12,7 @@
     "dev": "concurrently \"yarn start:web\" \"yarn start:api\""
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
   }
 }
