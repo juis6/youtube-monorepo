@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start:web": "yarn workspace @monorepo/web-app start",
-    "start:api": "yarn workspace @monorepo/api-server node src/index.js",
+    "start:api": "yarn workspace @monorepo/api-server tsc src/index.ts",
     "dev": "concurrently \"yarn start:web\" \"yarn start:api\""
   },
   "devDependencies": {
