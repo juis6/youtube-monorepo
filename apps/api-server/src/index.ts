@@ -1,5 +1,5 @@
 import express from "express";
-import load from "./loaders/index.js";
+import load from "./loaders/index.ts";
 
 const PORT = 3000;
 

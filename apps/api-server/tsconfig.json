@@ -4,6 +4,8 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": ".",
@@ -20,6 +22,6 @@
     "src/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
   ]
 }
