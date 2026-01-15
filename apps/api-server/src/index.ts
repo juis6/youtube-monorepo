@@ -1,7 +1,8 @@
 import express from "express";
+import dotenv from "./config/index.ts";
 import load from "./loaders/index.ts";
 
-const PORT = 3000;
+const PORT = parseInt(dotenv.port || "3000");
 
 async function shutdown() {
   process.exit(0);
